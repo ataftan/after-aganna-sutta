@@ -122,7 +122,7 @@ let prophecy = [
 async function setup() {
 
   createCanvas(windowWidth, windowHeight);
-    myFont = await loadFont('Gensco.otf');
+    myFont = await loadFont('GENSCO.otf');
 
   // myFont = await loadFont('Director-Regular.otf');
   textFont(myFont);
