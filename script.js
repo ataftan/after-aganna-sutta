@@ -93,10 +93,13 @@ let chaos = [
 let sensing = [
   "star lit water", "taste of feeding rapture", "mouth of a veritable one"
 ];
-let silk = [
-  "silk", "birth", "shadow", "reflections", "beings", "water", "honey", "seasons", "days"
-];
+// let silk = [
+//   "silk", "birth", "shadow", "reflections", "beings", "water", "honey", "seasons", "days"
+// ];
 
+let silk = [
+  "shadow", "exhume",  "reflection", "memory", "season", "materiality", "spiral", "truth", "history"
+];
 
 let universe = [
   "stars unseen", "bodies untold", "night nor day"
@@ -176,7 +179,7 @@ function story(scene) {
 
     text(sentence, random(100, 0.66 * windowWidth), random(0, windowHeight - 100));
     text(double, random(300, windowWidth - 500), random(windowHeight - 100, windowHeight - 200), 300);
-    textWrap(WORD);
+ textWrap(WORD);
 
   }
 
@@ -195,9 +198,9 @@ function story(scene) {
 
   if (scene == 3) {
     sentence =
-      "that gambling blur of " + random(silk) ;
-      double = "beating soul"
-    text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
+      "that gambling blur of silk" ;
+      double = "birth's " + random(silk) ;
+    text(sentence, random(40, windowWidth - 500), random(100, windowHeight - 200), 300);
         text(double, random(100, 0.66 * windowWidth), random(0, windowHeight - 100));
 
     
@@ -224,6 +227,7 @@ function story(scene) {
     double = "beings reckoned as beings" ;
    text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
     text(double, random(200, windowWidth - 100), random(300, windowHeight - 100), 300);
+    
     textWrap(WORD);
   }
 
@@ -287,6 +291,8 @@ function story(scene) {
   }
 if (scene == 11) {
     for (let i = 0; i < time_passed; i++) {
+              textSize(20);
+
       text(gap, random(windowWidth), random(windowHeight));
 
     }
@@ -297,6 +303,8 @@ if (scene == 11) {
   }
  
   if (scene == 12) {
+        textSize(20);
+
      sentence = "restores";
     text(sentence, random(50, windowWidth - 500), random(100, windowHeight - 200), 300);
     textWrap(WORD);
@@ -312,6 +320,8 @@ if (scene == 11) {
   }
 
   if (scene == 13) {
+            textSize(14);
+
     sentence = "breath's ruins";
     double =" echoes to silence"
 
