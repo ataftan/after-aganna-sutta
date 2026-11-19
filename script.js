@@ -187,8 +187,10 @@ randomGodWords = randomGodEntry.words;
 randomGodCharacters = randomGodEntry.characters;
 // 
 
+  pixelDensity(1); 
+   createCanvas(windowWidth, windowHeight);
+  // createCanvas(480, 800);
 
-  createCanvas(windowWidth, windowHeight);
   myFont = await loadFont('GENSCO.otf');
 
   // myFont = await loadFont('Director-Regular.otf');
@@ -208,7 +210,7 @@ function mouseClicked() {
   //everytime you click, you add white background with opacity 
   background(255, 200);
   scene++; // x= x+1
-  if (scene > 22) {
+  if (scene > 31) {
     scene = 0;
   }
   story(scene);
@@ -218,13 +220,19 @@ function mouseClicked() {
 
 function scatteringWords(words) {
   
-     let marginY = 100;
-    let areaWidth = 250;
-    let areaHeight = 150;
+    let marginX = 40;
+let marginY = 100;
 
-    let startX = random(0, width - areaWidth);
-    let startY = random(marginY + areaHeight / 2, height - marginY - areaHeight / 2);
+let areaWidth = 380;
+let areaHeight = 250;
+// original
+    // let startX = random(0, width - areaWidth);
+    // let startY = random(marginY + areaHeight / 2, height - marginY - areaHeight / 2);
 
+    // mobile
+
+let startX = random(marginX, width - marginX - areaWidth);
+let startY = random(marginY + areaHeight / 2, height - marginY - areaHeight / 2);
     for (let i = 0; i < words.length; i++) {
 
       let word = words[i];
@@ -243,7 +251,10 @@ function scatteringWords(words) {
         let charY = y + random(-2, 2);
         let spacing = textWidth(character) + random(2, 6);
             
-        text(character, charX, charY);
+        // text(character, charX, charY);
+        if (charX + textWidth(character) < width - marginX) {
+  text(character, charX, charY);
+}
 
         charX += spacing;
       }
@@ -251,13 +262,25 @@ function scatteringWords(words) {
 }
 
 function scatteringLines(words) {
-  //  fill(150)
-  let marginY = 100;
-    let areaWidth = 250;
-    let areaHeight = 150;
+// original margins
+  // let marginY = 100;
+  //   let areaWidth = 250;
+  //   let areaHeight = 150;
 
-    let startX = random(0, width - areaWidth);
-    let startY = random(marginY + areaHeight / 2, height - marginY - areaHeight / 2);
+
+  // new 16th nov
+  let marginX = 40;
+let marginY = 100;
+
+let areaWidth = 380;
+let areaHeight = 250;
+// original
+    // let startX = random(0, width - areaWidth);
+    // let startY = random(marginY + areaHeight / 2, height - marginY - areaHeight / 2);
+
+    // mobile
+let startX = random(marginX, width - marginX - areaWidth);
+let startY = random(marginY + areaHeight / 2, height - marginY - areaHeight / 2);
     // let startY = random(0, height - areaHeight);
 
     for (let i = 0; i < words.length; i++) {
@@ -278,8 +301,10 @@ function scatteringLines(words) {
         let charY = y + random(-2, 3);
         let spacing = textWidth(character) + random(1, 2);
             
-        text(character, charX, charY);
-
+        // text(character, charX, charY);
+if (charX + textWidth(character) < width - marginX) {
+  text(character, charX, charY);
+}
         charX += spacing;
       }
     }
@@ -288,11 +313,18 @@ function scatteringLines(words) {
 }
 function scatteringUpright(words) {
   fill(0);
-  let marginY = 100;
-    let areaWidth = 250;
-    let areaHeight = 150;
+  // let marginY = 100;
+  //   let areaWidth = 250;
+  //   let areaHeight = 150;
 
-    let startX = random(0, width - areaWidth);
+  let marginX = 40;
+let marginY = 100;
+
+let areaWidth = 380;
+let areaHeight = 250;
+
+    // let startX = random(0, width - areaWidth);
+    let startX = random(marginX, width - marginX - areaWidth);
     let startY = random(marginY + areaHeight / 2, height - marginY - areaHeight / 2);
     // let startY = random(0, height - areaHeight);
 
@@ -312,15 +344,20 @@ function scatteringUpright(words) {
         let character = word[j];
 
         let charY = y + random(-0.5, 1);
-let spacing = textWidth(character) * random(1.5, 2.5);
-        // let spacing = textWidth(character) + random(-1, 1);
-        text(character, charX, charY);
+// let spacing = textWidth(character) * random(1.5, 2.5);
+// mobile ka neeche 
+        // let spacing = textWidth(character) + random(3, 4);
+                let spacing = textWidth(character) + random(6, 8);
 
+        text(character, charX, charY);
+// if (charX + textWidth(character) < width - marginX) {
+//   text(character, charX, charY);
+// }
         charX += spacing;
       }
     }
 }
-
+  
 function story(scene) {
   let time_passed = int(random(1000));
   let unit = random(gap);
@@ -616,163 +653,160 @@ scatteringUpright(sentenceWords[22]);
     textWrap(WORD);
   }
 
-  if (scene == 18) {
-    sentence = "restores";
-    double = "the ghostly body";
-     scatteringLines(sentence);
-    scatteringLines(double);
-        scatteringUpright(sentenceWords[27]);
 
-    background(255, 200);
-        scatteringUpright(sentenceWords[28]);
+if (scene == 18) {
+  sentence = "the emerging axis";
+  double = "of";
+  let ending;
+  ending = "new forms";
 
-    background(255, 200);
+  scatteringLines(sentence);
+  scatteringLines(double);
+  scatteringLines(ending);
 
-    textWrap(WORD);
-  }
+  scatteringUpright(sentenceWords[27]);
 
-  if (scene == 19) {
-    sentence = "restores";
-    double = "the ghostly body"
-     scatteringLines(sentence);
-    scatteringLines(double);
-    text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-    background(255, 200);
-    text(double, random(200, windowWidth - 500), random(200, windowHeight - 200), 300);
+  textWrap(WORD);
+}
 
-    textWrap(WORD);
-  }
+if (scene == 19) {
+  sentence = "the earth forever";
+  double = "covered with";
 
+  scatteringLines(sentence);
+  scatteringLines(double);
 
-  if (scene == 20) {
-    sentence = "restores";
-    double = "the ghostly body"
-     scatteringLines(sentence);
-    scatteringLines(double);
-    text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-    text(double, random(200, windowWidth - 500), random(200, windowHeight - 200), 300);
+  scatteringUpright(sentenceWords[28]);
 
-    textWrap(WORD);
-  }
+  textWrap(WORD);
+}
 
-  if (scene == 21) {
-    sentence = "now";
-    double = "at that time"
-     scatteringLines(sentence);
-    scatteringLines(double);
-    text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-    text(double, random(200, windowWidth - 500), random(200, windowHeight - 200), 300);
+if (scene == 20) {
+  sentence = "a new kind";
+  double = "of skin,";
 
-    textWrap(WORD);
-  }
-  // if (scene == 20) {
-  //   sentence = "by a full circle,";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-  // }
+  scatteringLines(sentence);
+  scatteringLines(double);
 
+  scatteringUpright(sentenceWords[29]);
 
+  textWrap(WORD);
+}
 
-  // if (scene == 21) {
-  //   sentence = ",the presence of a whole truth. ";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-  // }
+if (scene == 21) {
+  sentence = "Time's embrace";
 
-  // if (scene == 22) {
-  //   sentence = ",it makes your heart heavy, and afraid. a core mounded in stone shedded by a fire enclave";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-  // }
+  scatteringLines(sentence);
 
-  // if (scene == 23) {
-  //   sentence = " the narrative quest creates many reasons to get lost.";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-  // }
+  scatteringUpright(sentenceWords[30]);
 
-  // if (scene == 24) {
-  //   sentence = " the nectarine pulp ripens under conditions of love. ";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-  // }
+  textWrap(WORD);
+}
 
-  // if (scene == 25) {
-  //   sentence = "aligns justice with truth. intimacy with courage.";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-  // }
+if (scene == 22) {
+  sentence = "bearing of our fruit";
 
-  // if (scene == 26) {
-  //   sentence = "i manage the silkened translucent thread between a voyreustic tendency of vulnerability and complete privacy. ";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-  // }
+  scatteringLines(sentence);
 
-  // if (scene == 27) {
+  scatteringUpright(sentenceWords[31]);
 
-  // }
+  textWrap(WORD);
+}
 
+if (scene == 23) {
+  sentence = "a grain of rice";
+  double = "became our moon";
 
+  scatteringLines(sentence);
+  scatteringLines(double);
 
-  // if (scene == 28) {
-  //   sentence = " the gaps between our standards of completeness and our lives forever largening to accommodate";
-  //   let s27 = "a humaness punctuated by restlessness.";
-  //   text(s27, random(100, 0.66 * windowWidth), random(windowHeight - 200, windowHeight - 400), 300);
-  //   textWrap(WORD);
+  scatteringUpright(sentenceWords[32]);
 
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
+  textWrap(WORD);
+}
 
+if (scene == 24) {
+  sentence = "and we cradled it";
+  double = "at the tip of our fingers";
 
-  // }
+  scatteringLines(sentence);
+  scatteringLines(double);
 
+  scatteringUpright(sentenceWords[33]);
 
-  // if (scene == 29) {
-  //   for (let i = 0; i < time_passed; i++) {
-  //     text(blend, random(windowWidth), random(windowHeight));
+  textWrap(WORD);
+}
 
-  //   }
+if (scene == 25) {
+  sentence = "folded into ribbons";
+  double = "of galaxies";
 
-  // }
+  scatteringLines(sentence);
+  scatteringLines(double);
+
+  scatteringUpright(sentenceWords[34]);
+
+  textWrap(WORD);
+}
+
+if (scene == 26) {
+  sentence = "litany";
+  double = "to flesh";
+
+  scatteringLines(sentence);
+  scatteringLines(double);
+
+  scatteringUpright(sentenceWords[35]);
+
+  textWrap(WORD);
+}
+
+if (scene == 27) {
+  sentence = "adorned";
+  double = "in the early light";
+  scatteringLines(sentence);
+  scatteringLines(double);
+  scatteringUpright(sentenceWords[36]);
 
 
 
+  textWrap(WORD);
+}
 
-  // if (scene == 30) {
-  //   sentence = "rearranging the need for chaos";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-
-  // }
-
-  // if (scene == 31) {
-  //   for (let i = 0; i < time_passed; i++) {
-  //     text(blend, random(windowWidth), random(windowHeight));
-
-  //   }
-  //   sentence = "rearranging the need for chaos";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-
-  // }
-
-  // if (scene == 32) {
-  //   sentence = " for immersion into a time-space continuum that breathes into you";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-
-  // }
-
-  // if (scene == 33) {
-  //   sentence = "alternately, you slow down and open, the next iteration is taking care of you";
-  //   text(sentence, random(100, windowWidth - 500), random(100, windowHeight - 200), 300);
-  //   textWrap(WORD);
-  // }
+if (scene == 28) {
+  sentence = "the earth braids";
+  double = "its molten endings";
+  scatteringUpright(sentence);
+  scatteringUpright(double);
+  scatteringUpright(sentenceWords[37]);
 
 
-  //print it the sentence out
+  textWrap(WORD);
+}
 
+if (scene == 29) {
+  sentence = "restores";
+  double = "the ghostly body";
+  scatteringUpright(sentence);
+  scatteringUpright(double);
+  scatteringUpright(sentenceWords[38]);
+  scatteringUpright(sentenceWords[39]);
+
+  textWrap(WORD);
+}
+
+if (scene == 30) {
+  sentence = "now";
+  double = "at that time";
+  scatteringUpright(sentence);
+  scatteringUpright(sentenceWords[7]);
+  scatteringUpright(double);
+
+  textWrap(WORD);
+}
+
+
+  
 
   console.log(sentence);
 }

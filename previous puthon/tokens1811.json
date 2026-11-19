@@ -1,0 +1,2278 @@
+{
+  "word_banks": {
+    "sensing": [
+      {
+        "original": "star lit water",
+        "words": [
+          "star",
+          "lit",
+          "water"
+        ],
+        "characters": [
+          "s",
+          "t",
+          "a",
+          "r",
+          " ",
+          "l",
+          "i",
+          "t",
+          " ",
+          "w",
+          "a",
+          "t",
+          "e",
+          "r"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "taste of feeding rapture",
+        "words": [
+          "taste",
+          "of",
+          "feeding",
+          "rapture"
+        ],
+        "characters": [
+          "t",
+          "a",
+          "s",
+          "t",
+          "e",
+          " ",
+          "o",
+          "f",
+          " ",
+          "f",
+          "e",
+          "e",
+          "d",
+          "i",
+          "n",
+          "g",
+          " ",
+          "r",
+          "a",
+          "p",
+          "t",
+          "u",
+          "r",
+          "e"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "mouth of a veritable one",
+        "words": [
+          "mouth",
+          "of",
+          "a",
+          "veritable",
+          "one"
+        ],
+        "characters": [
+          "m",
+          "o",
+          "u",
+          "t",
+          "h",
+          " ",
+          "o",
+          "f",
+          " ",
+          "a",
+          " ",
+          "v",
+          "e",
+          "r",
+          "i",
+          "t",
+          "a",
+          "b",
+          "l",
+          "e",
+          " ",
+          "o",
+          "n",
+          "e"
+        ],
+        "punctuation": []
+      }
+    ],
+    "silk": [
+      {
+        "original": "shadow",
+        "words": [
+          "shadow"
+        ],
+        "characters": [
+          "s",
+          "h",
+          "a",
+          "d",
+          "o",
+          "w"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "exhume",
+        "words": [
+          "exhume"
+        ],
+        "characters": [
+          "e",
+          "x",
+          "h",
+          "u",
+          "m",
+          "e"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "reflection",
+        "words": [
+          "reflection"
+        ],
+        "characters": [
+          "r",
+          "e",
+          "f",
+          "l",
+          "e",
+          "c",
+          "t",
+          "i",
+          "o",
+          "n"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "memory",
+        "words": [
+          "memory"
+        ],
+        "characters": [
+          "m",
+          "e",
+          "m",
+          "o",
+          "r",
+          "y"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "season",
+        "words": [
+          "season"
+        ],
+        "characters": [
+          "s",
+          "e",
+          "a",
+          "s",
+          "o",
+          "n"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "materiality",
+        "words": [
+          "materiality"
+        ],
+        "characters": [
+          "m",
+          "a",
+          "t",
+          "e",
+          "r",
+          "i",
+          "a",
+          "l",
+          "i",
+          "t",
+          "y"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "spiral",
+        "words": [
+          "spiral"
+        ],
+        "characters": [
+          "s",
+          "p",
+          "i",
+          "r",
+          "a",
+          "l"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "truth",
+        "words": [
+          "truth"
+        ],
+        "characters": [
+          "t",
+          "r",
+          "u",
+          "t",
+          "h"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "history",
+        "words": [
+          "history"
+        ],
+        "characters": [
+          "h",
+          "i",
+          "s",
+          "t",
+          "o",
+          "r",
+          "y"
+        ],
+        "punctuation": []
+      }
+    ],
+    "universe": [
+      {
+        "original": "stars unseen",
+        "words": [
+          "stars",
+          "unseen"
+        ],
+        "characters": [
+          "s",
+          "t",
+          "a",
+          "r",
+          "s",
+          " ",
+          "u",
+          "n",
+          "s",
+          "e",
+          "e",
+          "n"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "bodies untold",
+        "words": [
+          "bodies",
+          "untold"
+        ],
+        "characters": [
+          "b",
+          "o",
+          "d",
+          "i",
+          "e",
+          "s",
+          " ",
+          "u",
+          "n",
+          "t",
+          "o",
+          "l",
+          "d"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "night nor day",
+        "words": [
+          "night",
+          "nor",
+          "day"
+        ],
+        "characters": [
+          "n",
+          "i",
+          "g",
+          "h",
+          "t",
+          " ",
+          "n",
+          "o",
+          "r",
+          " ",
+          "d",
+          "a",
+          "y"
+        ],
+        "punctuation": []
+      }
+    ],
+    "undream": [
+      {
+        "original": "repeats",
+        "words": [
+          "repeats"
+        ],
+        "characters": [
+          "r",
+          "e",
+          "p",
+          "e",
+          "a",
+          "t",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "recites",
+        "words": [
+          "recites"
+        ],
+        "characters": [
+          "r",
+          "e",
+          "c",
+          "i",
+          "t",
+          "e",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "remembers",
+        "words": [
+          "remembers"
+        ],
+        "characters": [
+          "r",
+          "e",
+          "m",
+          "e",
+          "m",
+          "b",
+          "e",
+          "r",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "forgets",
+        "words": [
+          "forgets"
+        ],
+        "characters": [
+          "f",
+          "o",
+          "r",
+          "g",
+          "e",
+          "t",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "simmers",
+        "words": [
+          "simmers"
+        ],
+        "characters": [
+          "s",
+          "i",
+          "m",
+          "m",
+          "e",
+          "r",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "exhumes",
+        "words": [
+          "exhumes"
+        ],
+        "characters": [
+          "e",
+          "x",
+          "h",
+          "u",
+          "m",
+          "e",
+          "s"
+        ],
+        "punctuation": []
+      }
+    ],
+    "god": [
+      {
+        "original": "god",
+        "words": [
+          "god"
+        ],
+        "characters": [
+          "g",
+          "o",
+          "d"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "the womb",
+        "words": [
+          "the",
+          "womb"
+        ],
+        "characters": [
+          "t",
+          "h",
+          "e",
+          " ",
+          "w",
+          "o",
+          "m",
+          "b"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "bodies",
+        "words": [
+          "bodies"
+        ],
+        "characters": [
+          "b",
+          "o",
+          "d",
+          "i",
+          "e",
+          "s"
+        ],
+        "punctuation": []
+      }
+    ],
+    "prophecy": [
+      {
+        "original": "message",
+        "words": [
+          "message"
+        ],
+        "characters": [
+          "m",
+          "e",
+          "s",
+          "s",
+          "a",
+          "g",
+          "e"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "song",
+        "words": [
+          "song"
+        ],
+        "characters": [
+          "s",
+          "o",
+          "n",
+          "g"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "mystery",
+        "words": [
+          "mystery"
+        ],
+        "characters": [
+          "m",
+          "y",
+          "s",
+          "t",
+          "e",
+          "r",
+          "y"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "story",
+        "words": [
+          "story"
+        ],
+        "characters": [
+          "s",
+          "t",
+          "o",
+          "r",
+          "y"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "riddle",
+        "words": [
+          "riddle"
+        ],
+        "characters": [
+          "r",
+          "i",
+          "d",
+          "d",
+          "l",
+          "e"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "secret",
+        "words": [
+          "secret"
+        ],
+        "characters": [
+          "s",
+          "e",
+          "c",
+          "r",
+          "e",
+          "t"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "prayer",
+        "words": [
+          "prayer"
+        ],
+        "characters": [
+          "p",
+          "r",
+          "a",
+          "y",
+          "e",
+          "r"
+        ],
+        "punctuation": []
+      }
+    ]
+  },
+  "fixed_lines": {
+    "sentence": [
+      {
+        "original": "sooner or later",
+        "words": [
+          "sooner",
+          "or",
+          "later"
+        ],
+        "characters": [
+          "s",
+          "o",
+          "o",
+          "n",
+          "e",
+          "r",
+          " ",
+          "o",
+          "r",
+          " ",
+          "l",
+          "a",
+          "t",
+          "e",
+          "r"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "the earth with its savour was spread",
+        "words": [
+          "the",
+          "earth",
+          "with",
+          "its",
+          "savour",
+          "was",
+          "spread"
+        ],
+        "characters": [
+          "t",
+          "h",
+          "e",
+          " ",
+          "e",
+          "a",
+          "r",
+          "t",
+          "h",
+          " ",
+          "w",
+          "i",
+          "t",
+          "h",
+          " ",
+          "i",
+          "t",
+          "s",
+          " ",
+          "s",
+          "a",
+          "v",
+          "o",
+          "u",
+          "r",
+          " ",
+          "w",
+          "a",
+          "s",
+          " ",
+          "s",
+          "p",
+          "r",
+          "e",
+          "a",
+          "d"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "endowed with the [sensing]",
+        "words": [
+          "endowed",
+          "with",
+          "the",
+          "[",
+          "sensing",
+          "]"
+        ],
+        "characters": [
+          "e",
+          "n",
+          "d",
+          "o",
+          "w",
+          "e",
+          "d",
+          " ",
+          "w",
+          "i",
+          "t",
+          "h",
+          " ",
+          "t",
+          "h",
+          "e",
+          " ",
+          "[",
+          "s",
+          "e",
+          "n",
+          "s",
+          "i",
+          "n",
+          "g",
+          "]"
+        ],
+        "punctuation": [
+          "[",
+          "]"
+        ]
+      },
+      {
+        "original": "all the faces",
+        "words": [
+          "all",
+          "the",
+          "faces"
+        ],
+        "characters": [
+          "a",
+          "l",
+          "l",
+          " ",
+          "t",
+          "h",
+          "e",
+          " ",
+          "f",
+          "a",
+          "c",
+          "e",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "sideways asleep",
+        "words": [
+          "sideways",
+          "asleep"
+        ],
+        "characters": [
+          "s",
+          "i",
+          "d",
+          "e",
+          "w",
+          "a",
+          "y",
+          "s",
+          " ",
+          "a",
+          "s",
+          "l",
+          "e",
+          "e",
+          "p"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "that gambling blur of silk",
+        "words": [
+          "that",
+          "gambling",
+          "blur",
+          "of",
+          "silk"
+        ],
+        "characters": [
+          "t",
+          "h",
+          "a",
+          "t",
+          " ",
+          "g",
+          "a",
+          "m",
+          "b",
+          "l",
+          "i",
+          "n",
+          "g",
+          " ",
+          "b",
+          "l",
+          "u",
+          "r",
+          " ",
+          "o",
+          "f",
+          " ",
+          "s",
+          "i",
+          "l",
+          "k"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "birth's [silk]",
+        "words": [
+          "birth",
+          "'s",
+          "[",
+          "silk",
+          "]"
+        ],
+        "characters": [
+          "b",
+          "i",
+          "r",
+          "t",
+          "h",
+          "'",
+          "s",
+          " ",
+          "[",
+          "s",
+          "i",
+          "l",
+          "k",
+          "]"
+        ],
+        "punctuation": [
+          "'",
+          "[",
+          "]"
+        ]
+      },
+      {
+        "original": "now, at the time",
+        "words": [
+          "now",
+          ",",
+          "at",
+          "the",
+          "time"
+        ],
+        "characters": [
+          "n",
+          "o",
+          "w",
+          ",",
+          " ",
+          "a",
+          "t",
+          " ",
+          "t",
+          "h",
+          "e",
+          " ",
+          "t",
+          "i",
+          "m",
+          "e"
+        ],
+        "punctuation": [
+          ","
+        ]
+      },
+      {
+        "original": "all had become one world",
+        "words": [
+          "all",
+          "had",
+          "become",
+          "one",
+          "world"
+        ],
+        "characters": [
+          "a",
+          "l",
+          "l",
+          " ",
+          "h",
+          "a",
+          "d",
+          " ",
+          "b",
+          "e",
+          "c",
+          "o",
+          "m",
+          "e",
+          " ",
+          "o",
+          "n",
+          "e",
+          " ",
+          "w",
+          "o",
+          "r",
+          "l",
+          "d"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "no [universe]",
+        "words": [
+          "no",
+          "[",
+          "universe",
+          "]"
+        ],
+        "characters": [
+          "n",
+          "o",
+          " ",
+          "[",
+          "u",
+          "n",
+          "i",
+          "v",
+          "e",
+          "r",
+          "s",
+          "e",
+          "]"
+        ],
+        "punctuation": [
+          "[",
+          "]"
+        ]
+      },
+      {
+        "original": "neither male nor female",
+        "words": [
+          "neither",
+          "male",
+          "nor",
+          "female"
+        ],
+        "characters": [
+          "n",
+          "e",
+          "i",
+          "t",
+          "h",
+          "e",
+          "r",
+          " ",
+          "m",
+          "a",
+          "l",
+          "e",
+          " ",
+          "n",
+          "o",
+          "r",
+          " ",
+          "f",
+          "e",
+          "m",
+          "a",
+          "l",
+          "e"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "beings reckoned as beings",
+        "words": [
+          "beings",
+          "reckoned",
+          "as",
+          "beings"
+        ],
+        "characters": [
+          "b",
+          "e",
+          "i",
+          "n",
+          "g",
+          "s",
+          " ",
+          "r",
+          "e",
+          "c",
+          "k",
+          "o",
+          "n",
+          "e",
+          "d",
+          " ",
+          "a",
+          "s",
+          " ",
+          "b",
+          "e",
+          "i",
+          "n",
+          "g",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "those beings",
+        "words": [
+          "those",
+          "beings"
+        ],
+        "characters": [
+          "t",
+          "h",
+          "o",
+          "s",
+          "e",
+          " ",
+          "b",
+          "e",
+          "i",
+          "n",
+          "g",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "fallen from the shadow wings",
+        "words": [
+          "fallen",
+          "from",
+          "the",
+          "shadow",
+          "wings"
+        ],
+        "characters": [
+          "f",
+          "a",
+          "l",
+          "l",
+          "e",
+          "n",
+          " ",
+          "f",
+          "r",
+          "o",
+          "m",
+          " ",
+          "t",
+          "h",
+          "e",
+          " ",
+          "s",
+          "h",
+          "a",
+          "d",
+          "o",
+          "w",
+          " ",
+          "w",
+          "i",
+          "n",
+          "g",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "an undream",
+        "words": [
+          "an",
+          "undream"
+        ],
+        "characters": [
+          "a",
+          "n",
+          " ",
+          "u",
+          "n",
+          "d",
+          "r",
+          "e",
+          "a",
+          "m"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "how [god] returns to",
+        "words": [
+          "how",
+          "[",
+          "god",
+          "]",
+          "returns",
+          "to"
+        ],
+        "characters": [
+          "h",
+          "o",
+          "w",
+          " ",
+          "[",
+          "g",
+          "o",
+          "d",
+          "]",
+          " ",
+          "r",
+          "e",
+          "t",
+          "u",
+          "r",
+          "n",
+          "s",
+          " ",
+          "t",
+          "o"
+        ],
+        "punctuation": [
+          "[",
+          "]"
+        ]
+      },
+      {
+        "original": "earth's temples",
+        "words": [
+          "earth",
+          "'s",
+          "temples"
+        ],
+        "characters": [
+          "e",
+          "a",
+          "r",
+          "t",
+          "h",
+          "'",
+          "s",
+          " ",
+          "t",
+          "e",
+          "m",
+          "p",
+          "l",
+          "e",
+          "s"
+        ],
+        "punctuation": [
+          "'"
+        ]
+      },
+      {
+        "original": "restores",
+        "words": [
+          "restores"
+        ],
+        "characters": [
+          "r",
+          "e",
+          "s",
+          "t",
+          "o",
+          "r",
+          "e",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "the ghostly body",
+        "words": [
+          "the",
+          "ghostly",
+          "body"
+        ],
+        "characters": [
+          "t",
+          "h",
+          "e",
+          " ",
+          "g",
+          "h",
+          "o",
+          "s",
+          "t",
+          "l",
+          "y",
+          " ",
+          "b",
+          "o",
+          "d",
+          "y"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "breath's ruins",
+        "words": [
+          "breath",
+          "'s",
+          "ruins"
+        ],
+        "characters": [
+          "b",
+          "r",
+          "e",
+          "a",
+          "t",
+          "h",
+          "'",
+          "s",
+          " ",
+          "r",
+          "u",
+          "i",
+          "n",
+          "s"
+        ],
+        "punctuation": [
+          "'"
+        ]
+      },
+      {
+        "original": "echoes to silence",
+        "words": [
+          "echoes",
+          "to",
+          "silence"
+        ],
+        "characters": [
+          "e",
+          "c",
+          "h",
+          "o",
+          "e",
+          "s",
+          " ",
+          "t",
+          "o",
+          " ",
+          "s",
+          "i",
+          "l",
+          "e",
+          "n",
+          "c",
+          "e"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "self-luminescence break into",
+        "words": [
+          "self-luminescence",
+          "break",
+          "into"
+        ],
+        "characters": [
+          "s",
+          "e",
+          "l",
+          "f",
+          "-",
+          "l",
+          "u",
+          "m",
+          "i",
+          "n",
+          "e",
+          "s",
+          "c",
+          "e",
+          "n",
+          "c",
+          "e",
+          " ",
+          "b",
+          "r",
+          "e",
+          "a",
+          "k",
+          " ",
+          "i",
+          "n",
+          "t",
+          "o"
+        ],
+        "punctuation": [
+          "-"
+        ]
+      },
+      {
+        "original": "star-shaped constellations",
+        "words": [
+          "star-shaped",
+          "constellations"
+        ],
+        "characters": [
+          "s",
+          "t",
+          "a",
+          "r",
+          "-",
+          "s",
+          "h",
+          "a",
+          "p",
+          "e",
+          "d",
+          " ",
+          "c",
+          "o",
+          "n",
+          "s",
+          "t",
+          "e",
+          "l",
+          "l",
+          "a",
+          "t",
+          "i",
+          "o",
+          "n",
+          "s"
+        ],
+        "punctuation": [
+          "-"
+        ]
+      },
+      {
+        "original": "across every language's longing",
+        "words": [
+          "across",
+          "every",
+          "language",
+          "'s",
+          "longing"
+        ],
+        "characters": [
+          "a",
+          "c",
+          "r",
+          "o",
+          "s",
+          "s",
+          " ",
+          "e",
+          "v",
+          "e",
+          "r",
+          "y",
+          " ",
+          "l",
+          "a",
+          "n",
+          "g",
+          "u",
+          "a",
+          "g",
+          "e",
+          "'",
+          "s",
+          " ",
+          "l",
+          "o",
+          "n",
+          "g",
+          "i",
+          "n",
+          "g"
+        ],
+        "punctuation": [
+          "'"
+        ]
+      },
+      {
+        "original": "the wise innocence of prophecy",
+        "words": [
+          "the",
+          "wise",
+          "innocence",
+          "of",
+          "prophecy"
+        ],
+        "characters": [
+          "t",
+          "h",
+          "e",
+          " ",
+          "w",
+          "i",
+          "s",
+          "e",
+          " ",
+          "i",
+          "n",
+          "n",
+          "o",
+          "c",
+          "e",
+          "n",
+          "c",
+          "e",
+          " ",
+          "o",
+          "f",
+          " ",
+          "p",
+          "r",
+          "o",
+          "p",
+          "h",
+          "e",
+          "c",
+          "y"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "recollects the mouth of",
+        "words": [
+          "recollects",
+          "the",
+          "mouth",
+          "of"
+        ],
+        "characters": [
+          "r",
+          "e",
+          "c",
+          "o",
+          "l",
+          "l",
+          "e",
+          "c",
+          "t",
+          "s",
+          " ",
+          "t",
+          "h",
+          "e",
+          " ",
+          "m",
+          "o",
+          "u",
+          "t",
+          "h",
+          " ",
+          "o",
+          "f"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "a fainted moon",
+        "words": [
+          "a",
+          "fainted",
+          "moon"
+        ],
+        "characters": [
+          "a",
+          " ",
+          "f",
+          "a",
+          "i",
+          "n",
+          "t",
+          "e",
+          "d",
+          " ",
+          "m",
+          "o",
+          "o",
+          "n"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "the emerging axis of new forms",
+        "words": [
+          "the",
+          "emerging",
+          "axis",
+          "of",
+          "new",
+          "forms"
+        ],
+        "characters": [
+          "t",
+          "h",
+          "e",
+          " ",
+          "e",
+          "m",
+          "e",
+          "r",
+          "g",
+          "i",
+          "n",
+          "g",
+          " ",
+          "a",
+          "x",
+          "i",
+          "s",
+          " ",
+          "o",
+          "f",
+          " ",
+          "n",
+          "e",
+          "w",
+          " ",
+          "f",
+          "o",
+          "r",
+          "m",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "the earth forever covered with",
+        "words": [
+          "the",
+          "earth",
+          "forever",
+          "covered",
+          "with"
+        ],
+        "characters": [
+          "t",
+          "h",
+          "e",
+          " ",
+          "e",
+          "a",
+          "r",
+          "t",
+          "h",
+          " ",
+          "f",
+          "o",
+          "r",
+          "e",
+          "v",
+          "e",
+          "r",
+          " ",
+          "c",
+          "o",
+          "v",
+          "e",
+          "r",
+          "e",
+          "d",
+          " ",
+          "w",
+          "i",
+          "t",
+          "h"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "a new kind of skin, ",
+        "words": [
+          "a",
+          "new",
+          "kind",
+          "of",
+          "skin",
+          ","
+        ],
+        "characters": [
+          "a",
+          " ",
+          "n",
+          "e",
+          "w",
+          " ",
+          "k",
+          "i",
+          "n",
+          "d",
+          " ",
+          "o",
+          "f",
+          " ",
+          "s",
+          "k",
+          "i",
+          "n",
+          ",",
+          " "
+        ],
+        "punctuation": [
+          ","
+        ]
+      },
+      {
+        "original": "Time’s embrace",
+        "words": [
+          "Time",
+          "’",
+          "s",
+          "embrace"
+        ],
+        "characters": [
+          "T",
+          "i",
+          "m",
+          "e",
+          "’",
+          "s",
+          " ",
+          "e",
+          "m",
+          "b",
+          "r",
+          "a",
+          "c",
+          "e"
+        ],
+        "punctuation": [
+          "’"
+        ]
+      },
+      {
+        "original": "bearing of our fruit",
+        "words": [
+          "bearing",
+          "of",
+          "our",
+          "fruit"
+        ],
+        "characters": [
+          "b",
+          "e",
+          "a",
+          "r",
+          "i",
+          "n",
+          "g",
+          " ",
+          "o",
+          "f",
+          " ",
+          "o",
+          "u",
+          "r",
+          " ",
+          "f",
+          "r",
+          "u",
+          "i",
+          "t"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "a grain of rice became our moon",
+        "words": [
+          "a",
+          "grain",
+          "of",
+          "rice",
+          "became",
+          "our",
+          "moon"
+        ],
+        "characters": [
+          "a",
+          " ",
+          "g",
+          "r",
+          "a",
+          "i",
+          "n",
+          " ",
+          "o",
+          "f",
+          " ",
+          "r",
+          "i",
+          "c",
+          "e",
+          " ",
+          "b",
+          "e",
+          "c",
+          "a",
+          "m",
+          "e",
+          " ",
+          "o",
+          "u",
+          "r",
+          " ",
+          "m",
+          "o",
+          "o",
+          "n"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "and we cradled it at the tip of our fingers",
+        "words": [
+          "and",
+          "we",
+          "cradled",
+          "it",
+          "at",
+          "the",
+          "tip",
+          "of",
+          "our",
+          "fingers"
+        ],
+        "characters": [
+          "a",
+          "n",
+          "d",
+          " ",
+          "w",
+          "e",
+          " ",
+          "c",
+          "r",
+          "a",
+          "d",
+          "l",
+          "e",
+          "d",
+          " ",
+          "i",
+          "t",
+          " ",
+          "a",
+          "t",
+          " ",
+          "t",
+          "h",
+          "e",
+          " ",
+          "t",
+          "i",
+          "p",
+          " ",
+          "o",
+          "f",
+          " ",
+          "o",
+          "u",
+          "r",
+          " ",
+          "f",
+          "i",
+          "n",
+          "g",
+          "e",
+          "r",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "folded into ribbons of galaxies",
+        "words": [
+          "folded",
+          "into",
+          "ribbons",
+          "of",
+          "galaxies"
+        ],
+        "characters": [
+          "f",
+          "o",
+          "l",
+          "d",
+          "e",
+          "d",
+          " ",
+          "i",
+          "n",
+          "t",
+          "o",
+          " ",
+          "r",
+          "i",
+          "b",
+          "b",
+          "o",
+          "n",
+          "s",
+          " ",
+          "o",
+          "f",
+          " ",
+          "g",
+          "a",
+          "l",
+          "a",
+          "x",
+          "i",
+          "e",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "a universe beyond legibility’s catastrophes",
+        "words": [
+          "a",
+          "universe",
+          "beyond",
+          "legibility",
+          "’",
+          "s",
+          "catastrophes"
+        ],
+        "characters": [
+          "a",
+          " ",
+          "u",
+          "n",
+          "i",
+          "v",
+          "e",
+          "r",
+          "s",
+          "e",
+          " ",
+          "b",
+          "e",
+          "y",
+          "o",
+          "n",
+          "d",
+          " ",
+          "l",
+          "e",
+          "g",
+          "i",
+          "b",
+          "i",
+          "l",
+          "i",
+          "t",
+          "y",
+          "’",
+          "s",
+          " ",
+          "c",
+          "a",
+          "t",
+          "a",
+          "s",
+          "t",
+          "r",
+          "o",
+          "p",
+          "h",
+          "e",
+          "s"
+        ],
+        "punctuation": [
+          "’"
+        ]
+      },
+      {
+        "original": "restores",
+        "words": [
+          "restores"
+        ],
+        "characters": [
+          "r",
+          "e",
+          "s",
+          "t",
+          "o",
+          "r",
+          "e",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "the ghostly body",
+        "words": [
+          "the",
+          "ghostly",
+          "body"
+        ],
+        "characters": [
+          "t",
+          "h",
+          "e",
+          " ",
+          "g",
+          "h",
+          "o",
+          "s",
+          "t",
+          "l",
+          "y",
+          " ",
+          "b",
+          "o",
+          "d",
+          "y"
+        ],
+        "punctuation": []
+      }
+    ]
+  },
+  "visual": {
+    "gap": [
+      {
+        "original": "_",
+        "words": [
+          "_"
+        ],
+        "characters": [
+          "_"
+        ],
+        "punctuation": [
+          "_"
+        ]
+      },
+      {
+        "original": "( )",
+        "words": [
+          "(",
+          ")"
+        ],
+        "characters": [
+          "(",
+          " ",
+          ")"
+        ],
+        "punctuation": [
+          "(",
+          ")"
+        ]
+      },
+      {
+        "original": ".                      ...",
+        "words": [
+          ".",
+          "..."
+        ],
+        "characters": [
+          ".",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          ".",
+          ".",
+          "."
+        ],
+        "punctuation": [
+          ".",
+          ".",
+          ".",
+          "."
+        ]
+      },
+      {
+        "original": "restores",
+        "words": [
+          "restores"
+        ],
+        "characters": [
+          "r",
+          "e",
+          "s",
+          "t",
+          "o",
+          "r",
+          "e",
+          "s"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "' ' ' ' ' ' '       '",
+        "words": [
+          "'",
+          "'",
+          "'",
+          "'",
+          "'",
+          "'",
+          "'",
+          "'"
+        ],
+        "characters": [
+          "'",
+          " ",
+          "'",
+          " ",
+          "'",
+          " ",
+          "'",
+          " ",
+          "'",
+          " ",
+          "'",
+          " ",
+          "'",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          " ",
+          "'"
+        ],
+        "punctuation": [
+          "'",
+          "'",
+          "'",
+          "'",
+          "'",
+          "'",
+          "'",
+          "'"
+        ]
+      },
+      {
+        "original": "*",
+        "words": [
+          "*"
+        ],
+        "characters": [
+          "*"
+        ],
+        "punctuation": [
+          "*"
+        ]
+      },
+      {
+        "original": "the",
+        "words": [
+          "the"
+        ],
+        "characters": [
+          "t",
+          "h",
+          "e"
+        ],
+        "punctuation": []
+      },
+      {
+        "original": "-",
+        "words": [
+          "-"
+        ],
+        "characters": [
+          "-"
+        ],
+        "punctuation": [
+          "-"
+        ]
+      },
+      {
+        "original": ";",
+        "words": [
+          ";"
+        ],
+        "characters": [
+          ";"
+        ],
+        "punctuation": [
+          ";"
+        ]
+      },
+      {
+        "original": "ghostly   body",
+        "words": [
+          "ghostly",
+          "body"
+        ],
+        "characters": [
+          "g",
+          "h",
+          "o",
+          "s",
+          "t",
+          "l",
+          "y",
+          " ",
+          " ",
+          " ",
+          "b",
+          "o",
+          "d",
+          "y"
+        ],
+        "punctuation": []
+      }
+    ],
+    "": [],
+    "chaos": [
+      {
+        "original": "(  )",
+        "words": [
+          "(",
+          ")"
+        ],
+        "characters": [
+          "(",
+          " ",
+          " ",
+          ")"
+        ],
+        "punctuation": [
+          "(",
+          ")"
+        ]
+      },
+      {
+        "original": "#$@^@@^@%&@%@&",
+        "words": [
+          "#",
+          "$",
+          "@",
+          "^",
+          "@",
+          "@",
+          "^",
+          "@",
+          "%",
+          "&",
+          "@",
+          "%",
+          "@",
+          "&"
+        ],
+        "characters": [
+          "#",
+          "$",
+          "@",
+          "^",
+          "@",
+          "@",
+          "^",
+          "@",
+          "%",
+          "&",
+          "@",
+          "%",
+          "@",
+          "&"
+        ],
+        "punctuation": [
+          "#",
+          "$",
+          "@",
+          "^",
+          "@",
+          "@",
+          "^",
+          "@",
+          "%",
+          "&",
+          "@",
+          "%",
+          "@",
+          "&"
+        ]
+      },
+      {
+        "original": "************* ****** * *** * * * * *",
+        "words": [
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ],
+        "characters": [
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          " ",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          " ",
+          "*",
+          " ",
+          "*",
+          "*",
+          "*",
+          " ",
+          "*",
+          " ",
+          "*",
+          " ",
+          "*",
+          " ",
+          "*",
+          " ",
+          "*"
+        ],
+        "punctuation": [
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*",
+          "*"
+        ]
+      }
+    ]
+  }
+}

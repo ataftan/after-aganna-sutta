@@ -12,3 +12,27 @@ main {
   display: flex;
   
 }
+
+@media (width: 480px) and (height: 800px) {
+
+  html, body {
+  margin: 0;
+  padding: 0;
+  width: 480px;
+  height: 800px;
+  overflow: hidden;
+    font-family: 'Director-Regular.otf';
+
+}
+
+main {
+  width: 480px;
+  height: 800px;
+}
+
+canvas {
+display: block;
+  width: 100%;
+  height: 100%;}
+
+}

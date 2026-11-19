@@ -1,0 +1,133 @@
+
+[word_banks]
+
+sensing:
+star lit water
+taste of feeding rapture
+mouth of a veritable one
+
+silk:
+shadow
+exhume
+reflection
+memory
+season
+materiality
+spiral
+truth
+history
+
+universe:
+stars unseen
+bodies untold
+night nor day
+
+undream:
+repeats
+recites
+remembers
+forgets
+simmers
+exhumes
+
+god:
+god
+the womb
+bodies
+
+prophecy:
+message
+song
+mystery
+story
+riddle
+secret
+prayer
+
+[fixed_lines]
+
+sentence:
+sooner or later
+the earth with its savour was spread
+endowed with the [sensing]
+all the faces
+sideways asleep
+that gambling blur of silk
+birth's [silk]
+now, at the time
+all had become one world
+no [universe]
+neither male nor female
+beings reckoned as beings
+those beings
+fallen from the shadow wings
+an undream
+how [god] returns to
+earth's temples
+restores
+the ghostly body
+breath's ruins
+echoes to silence
+self-luminescence break into
+star-shaped constellations
+across every language's longing
+the wise innocence of prophecy
+recollects the mouth
+a fainted moon
+
+restores
+the ghostly body
+
+
+[visual]
+
+gap:
+_
+( )
+.                      ...
+restores
+' ' ' ' ' ' '       '
+*
+the
+-
+;
+ghostly   body
+:
+_
+( )
+.                      ...
+restores
+' ' ' ' ' ' '       '
+*
+the
+-
+;
+ghostly   body
+:
+_
+( )
+.                      ...
+restores
+' ' ' ' ' ' '       '
+*
+the
+-
+;
+ghostly   body
+:
+_
+( )
+.                      ...
+restores
+' ' ' ' ' ' '       '
+*
+the
+-
+;
+ghostly   body
+:
+
+chaos:
+(  )
+#$@^@@^@%&@%@&
+************* ****** * *** * * * * *
