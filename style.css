@@ -25,11 +25,18 @@ main {
 
 }
 
-main {
+/* main {
   width: 480px;
   height: 800px;
-}
+} */
 
+    main {
+    width: 480px;
+    height: 800px;
+    transform: scaleY(0.5);
+    transform-origin: top left;
+  }
+  
 canvas {
 display: block;
   width: 100%;
